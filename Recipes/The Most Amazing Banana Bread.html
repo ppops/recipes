@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16.0px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18.0px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14.0px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14.0px;
+            }
+            .metadata {
+                font-size: 14.0px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14.0px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                
+                float: left;
+                margin-right: 14px;
+                
+                
+            }
+            .photo {
+                max-width: 140.0px;
+                max-height: 140.0px;
+                width: auto;
+                height: auto;
+            }
+            
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                
+                page-break-after: always;
+                
+                
+            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        
+        <div class="photobox">
+            
+            <a href="https://www.queensleeappetit.com/wp-content/uploads/2017/08/Best-Ever-Banana-Bread-200x300.jpg">
+                <img src="Images/D2EE4B82-41DD-4329-A71C-15C98AB30CE9/BEEA89C9-780E-4BAF-80FA-6101A6BDF631.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">The Most Amazing Banana Bread</h1>
+        
+        <!-- Info -->
+        
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+        
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            
+            <b>Prep Time: </b><span itemprop="prepTime">10 minutes</span>
+            
+            <b>Cook Time: </b><span itemprop="cookTime">55 minutes</span>
+            
+            <b>Servings: </b><span itemprop="recipeYield">Yield: one 9x5-inch loaf</span>
+            
+
+            <!-- Source -->
+            
+                <b>Source: </b>
+                
+                    <a itemprop="url" href="https://www.queensleeappetit.com/the-most-amazing-banana-bread/">
+                        <span itemprop="author">queensleeappetit.com</span>
+                    </a>
+                
+                
+            
+        </p>
+        
+        
+        
+        <div class="clear"></div>
+        
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>½</strong> cup (115g) unsalted butter, softened to room temperature</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup (201g) packed light brown sugar OR granulated sugar</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> large eggs, room temperature</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon (5ml) vanilla bean paste or pure vanilla extract</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> large overripe bananas, mashed</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> cup (120ml) buttermilk, room temperature</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> cups (256g) all purpose flour</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon (12g) baking powder</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> teaspoon (1.5g) baking soda</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> teaspoon (3g) salt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon ground cinnamon (optional)</p><p class="line" itemprop="recipeIngredient"><strong>¾</strong> cup walnuts, chopped (optional)</p>
+            </div>
+        </div>
+        
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    
+
+    <!-- Directions -->
+    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line"><strong>FOR THE BANANA BREAD:</strong></p><p class="line">Preheat oven to 350℉ (177℃). Lightly grease a 9x5-inch loaf pan with non-stick cooking spray. Set aside.</p><p class="line">In the bowl of a stand mixer fitted with a paddle attachment, or in a large mixing bowl using a handheld mixer, cream the butter and sugar on medium speed until light and fluffy, about 3 minutes. Scrape down the sides and bottom of the bowl.</p><p class="line">With the mixer on low, add the eggs one at a time, mixing after each addition until just combined. Add vanilla and mashed bananas and mix on low to combine.</p><p class="line">While the mixer is running, slowly pour in the buttermilk and continue to mix until combined. Turn off the mixer and scrape down the sides and bottom of the bowl.</p><p class="line">In a separate bowl, sift the flour, baking powder, baking soda, salt and cinnamon. Whisk to combine.</p><p class="line">Add all of the dry ingredients to the wet ingredients and mix on low speed until just combined. Do not overmix. Fold in chopped walnuts, if desired.</p><p class="line">Pour batter into a 9x5-inch loaf pan and bake in preheated oven for 55-60 minutes, or until a toothpick inserted into the bread comes out clean. Allow bread to cool completely on a wire rack.</p><p class="line">Remove banana bread from the loaf pan and transfer to a serving platter. Slice, serve and enjoy!</p>
+        </div>
+    </div>
+    
+
+    <!-- Notes -->
+    
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>Store bread in an airtight container at room temperature.</p><p>Granulated sugar can be substituted for brown sugar.</p><p>The butter needs to be at room temperature, not too soft and not too hard. It should be firm enough for your finger to leave an imprint when you press down on it. I recommend taking your butter out of the fridge at least 30 minutes before you begin to let it come to room temperature.</p><p>You can substitute the walnuts for any other type of nuts, chocolate chips or chunks, raisins, raspberries, blueberries or just leave the bread plain.</p>
+        </div>
+    </div>
+    
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+    
+        <!-- Used in two different places depending on the recipe layout -->
+
+
+    
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+
+
+    </body>
+</html>

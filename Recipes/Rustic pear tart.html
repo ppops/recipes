@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16.0px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18.0px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14.0px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14.0px;
+            }
+            .metadata {
+                font-size: 14.0px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14.0px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                
+                float: left;
+                margin-right: 14px;
+                
+                
+            }
+            .photo {
+                max-width: 140.0px;
+                max-height: 140.0px;
+                width: auto;
+                height: auto;
+            }
+            
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                
+                page-break-after: always;
+                
+                
+            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        
+        <div class="photobox">
+            
+            <a href="https://italyonmymind.files.wordpress.com/2014/07/20140715-170123-61283887.jpg?w=882">
+                <img src="Images/A1B66149-211E-4A63-B7CA-DBD580889376-2404-000006840F4E5C71/CEE64671-3362-483C-AFAD-AD265731E6E4-2404-000006840F564EA0.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Rustic pear tart</h1>
+        
+        <!-- Info -->
+        
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+        
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            
+            <b>Difficulty: </b><span itemprop="difficulty">medium</span>
+            
+
+            <!-- Source -->
+            
+                <b>Source: </b>
+                
+                    <a itemprop="url" href="http://italyonmymind.com.au/2014/08/02/rustic-pear-tart-a-perfect-ending-to-a-winter-lunch/">
+                        <span itemprop="author">Italyonmymind.com.au</span>
+                    </a>
+                
+                
+            
+        </p>
+        
+        
+        
+        <div class="clear"></div>
+        
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient">pastry</p><p class="line" itemprop="recipeIngredient"><strong>125</strong>g (4oz) plain flour</p><p class="line" itemprop="recipeIngredient"><strong>30</strong>g (1oz) caster sugar</p><p class="line" itemprop="recipeIngredient"><strong>110</strong>g (1 stick) butter, cut into cubes, cold from the fridge</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> tsp salt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tblsp cold milk or water</p><p class="line" itemprop="recipeIngredient">filling</p><p class="line" itemprop="recipeIngredient">one to one and a half pears (I used Beurre Bosc), thinly sliced in wedges</p><p class="line" itemprop="recipeIngredient"><strong>1/8</strong> tsp nutmeg</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> teaspoon cinnamon</p><p class="line" itemprop="recipeIngredient"><strong>1/8</strong> teaspoon salt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon plain flour</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon caster sugar</p><p class="line" itemprop="recipeIngredient">zest of half a lemon</p>
+            </div>
+        </div>
+        
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    
+
+    <!-- Directions -->
+    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Put the sugar and flour in a bowl. Add the butter and incorporate using the tines of a fork (or use your fingers). The mixture will be crumbly and don’t worry if there are a few chunks of butter visible – this is a rustic pie. Sprinkle on the salt and milk and knead it a couple of times until the mixture is cohesive. Place the ball of pastry on a sheet of cling wrap. Place a second sheet of cling wrap over the pastry and using the heel of your hand, flatten it. Now use a rolling pin and make a rough circle with the pastry, with a diameter of about 30cm. Place the pastry in the fridge (still covered by the two sheets of cling film). Preheat the oven to 180C/350F.</p><p class="line">When the pastry is resting in the fridge, mix the nutmeg, cinnamon, salt, 1 tsp plain flour and 1 tblsp cater sugar in a medium sized bowl. Toss the thin slices of pear in the mixture and set aside.</p><p class="line">Remove the pastry from the fridge and briefly roll it out and shape it further if needed. Working quickly, arrange the slices of fruit in the centre of the pastry leaving a 5 cm (2 inch) border of pastry around the edges. You can make an inner circle of small pear segments as well depending on the size that you have rolled out your pastry. When you have placed all the fruit, fold over the pastry edges and scatter a bit of sugar over the pastry border.</p><p class="line">Bake for 40-45 minutes or until the pastry edges are golden. Cool on a wire rack. It is best eaten at room temperature.</p>
+        </div>
+    </div>
+    
+
+    <!-- Notes -->
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+    
+        <!-- Used in two different places depending on the recipe layout -->
+
+
+    
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+
+
+    </body>
+</html>
